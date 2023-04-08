@@ -39,6 +39,7 @@ main img {
 .group {
   display: flex;
   flex-direction: column;
+  gap: 25px;
 }
 
 .item {
@@ -79,6 +80,11 @@ header nav ul li a:hover {
   text-decoration: none;
 }
 
+#menu{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
 /* -------  Search Form ------- */
 form {
   border: 2px solid #ff385c;
@@ -104,6 +110,34 @@ form button {
   width: 100%;
 }
 
+.formDivs{
+display: flex;
+justify-content: space-between;
+}
+/* -------  About ------- */
+
+#about{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#about img{
+  width: 100%;
+}
+
+/* -------  Ideas ------- */
+
+#ideas img{
+width: 100%;
+}
+
+/* -------  Host  ------- */
+
+#host img{
+  width: 100%;
+}
+
 /* -------  Footer ------- */
 
 footer {
@@ -117,3 +151,75 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+@media all and (min-width: 480px){
+  /* ------- Desktop Navigation ------- */
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px 0px 20px;
+}
+
+.logo{
+  font-size: 30px;
+}
+  /* ------- Desktop Search-Form ------- */
+
+form{
+  display: flex;
+  gap: 20px;
+}
+
+form div, form button{
+  width: 20%;
+  font-size: 15px;
+}
+
+.formDivs{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  }
+
+form input, form select{
+  width: 70%
+}
+
+  /* ------- Desktop About ------- */
+
+#about div{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+#about img{
+  width: 25%;
+  
+}
+
+
+  /* ------- Desktop Ideas ------- */
+
+.row{
+  display: flex;
+  gap: 10px;
+}
+
+.col{
+  flex:1
+}
+
+  /* ------- Desktop Host ------- */
+
+#host{
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#host img, #host div{
+  flex:1
+}
+
+}
