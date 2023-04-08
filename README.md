@@ -2,7 +2,7 @@
 
 Thinkfulbnb is a vacation rental website that allows people to rent out their homes to people who are seeking short-term accommodations in that locale. Thinkfulbnb hosts rent out different kinds of properties, including single rooms, apartments, and unique living spaces such as yachts, houseboats, yurts, tiny houses, and even renovated medieval castles.
 
-For this assignment, you will implement Thinkfulbnb's landing page in HTML & CSS.
+For this assignment, I implemented Thinkfulbnb's landing page in HTML & CSS.
 
 ## Thinkfulbnb views
 
@@ -32,11 +32,11 @@ Use VSCode Live Server to launch the `index.html` page in your browser.
 
 ### Tasks
 
-For this assignment, you will be following a mobile-first development approach. To pass this assignment, you must complete the tasks detailed below.
+For this assignment, I followd a mobile-first development approach. To pass this assignment, you must complete the tasks detailed below.
 
-You **should** use flexbox, and **not** floats, to achieve the desired layouts. The `.group`, `.item`, and `.item-double` classes are provided in the CSS file for your convenience, but it is not necessary to use them.
+I **should** used flexbox, and **not** floats, to achieve the desired layouts. The `.group`, `.item`, and `.item-double` classes are provided in the CSS file for your convenience, but it is not necessary to use them.
 
-You are **NOT** expected to match the designs pixel by pixel, as long as the required layout is satisfied.
+I was **NOT** expected to match the designs pixel by pixel, as long as the required layout is satisfied.
 
 Edit the `index.html` and `style.css` as needed to achieve the following requirements:
 
@@ -75,7 +75,7 @@ Edit the `index.html` and `style.css` as needed to achieve the following require
 - Some CSS styles have already been written for you to help style your form. Add CSS to the form so that
   - the labels (i.e., "Location", "Arrive", "Depart", "Type") and their corresponding form fields are aligned towards the opposite ends of each row
 
-Your final form design should look as follows:
+My final form design should look as follows:
 
 ![Search form mobile](./images/search-form-mobile.png)
 
@@ -89,7 +89,7 @@ Your final form design should look as follows:
 
 #### Media query: Desktop view
 
-Now that your mobile design is looking good, you will need to adapt the design for the desktop view.
+Once my mobile design was looking good, I needed to adapt the design for the desktop view.
 
 - In `style.css`, create a media query for screens that are wider than `480px`.
 
