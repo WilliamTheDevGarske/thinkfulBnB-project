@@ -223,3 +223,27 @@ form input, form select{
 }
 
 }
+
+
+
+@media all and (max-width: 380px){
+  /* ------- Desktop Navigation ------- */
+
+header{
+  overflow: hidden;;
+}
+
+
+.logo{
+  display: flex;
+  font-size: 60px;
+  justify-content: center;
+  text-size-adjust: auto;
+}
+  /* ------- Desktop Search-Form ------- */
+  form select,
+  form input {
+    margin-bottom: 20px;
+    width: 50%;
+  }
+}
